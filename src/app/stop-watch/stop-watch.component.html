@@ -1,0 +1,13 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+<div class="container">
+  <div class="time">
+    <p class="stopwatch">{{ hour }}:{{ min }}:{{ sec }}</p>
+  </div>
+  <div class="buttons">
+    <button id="start" type="button" class="btn btn-success ml-4">Start</button>
+    <button id="wait" type="button" disabled class="btn btn-warning">Wait</button>
+    <button id="stop" type="button" disabled class="btn btn-danger">Stop</button>
+    <button id="reset" type="button" disabled class="btn btn-danger">Reset</button>
+  </div>
+</div>
